@@ -1,7 +1,8 @@
 const car = {
     brand:  {
         name: "Xpeng",
-        model: "G3"
+        model: "G3",
+        year: 2021
     },
     type: "electrical",
     rangekm: 440,
