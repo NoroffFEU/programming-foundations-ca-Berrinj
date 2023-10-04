@@ -4,6 +4,9 @@ const car = {
         model: "G3",
         year: 2021
     },
+    getBrandInfo: function() {
+        console.log(this.brand);
+    },
     type: "electrical",
     rangekm: 440,
     battery: [
@@ -14,9 +17,9 @@ const car = {
         {percentage: 100}],
     currentstatus: "Not charging",
     color: "black",
-    charging: false,
+    charging: false
 } 
-
+car.getBrandInfo();
 console.log(car);
 
 var currentCarStatus = document.querySelector(".current-status");
