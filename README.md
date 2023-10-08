@@ -5,11 +5,11 @@
 Object: My car.
 This object has these properties:
 - brand: {
-name: "Xpeng", (string) The manufacturer of the car
-model: "G3" (string) The car model
+name: "Xpeng", (string) The manufacturer of the car.
+model: "G3" (string) The car model.
 },
-- type: "electrical", (string) The car type
-- rangekm: 440, (number) The cars range in kilometeres
+- type: "electrical", (string) The car type.
+- rangekm: 440, (number) The cars range in kilometeres.
 - battery: [
 {percentage: 0}, (number) Battery 0%
 {percentage: 25}, (number) Battery 25%
